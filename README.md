@@ -8,9 +8,9 @@
 
 ![demo](assets/demo.gif)
 
-This document describes the ITScape (CVE-2026-46316) vulnerability reported and patched by [Hyunwoo Kim (@v4bel)](https://x.com/v4bel). It is a KVM escape vulnerability that lets a guest escape to the host in a KVM/arm64 environment and run commands on the host with kernel (root) privilege. To the best of public knowledge, this is the first guest-to-host escape exploit research targeting KVM/arm64.
+This document describes the **ITScape (CVE-2026-46316)** vulnerability reported and patched by [Hyunwoo Kim (@v4bel)](https://x.com/v4bel). It is a KVM escape vulnerability that lets a guest escape to the host in a KVM/arm64 environment and run commands on the host with kernel (root) privilege. To the best of public knowledge, this is the first guest-to-host escape exploit research targeting KVM/arm64.
 
-ITScape exploits a race condition in the vGIC-ITS (Interrupt Translation Service) emulation of KVM/arm64. It triggers the bug with guest-side actions alone to escape to the host, and it can threaten the guest-host isolation of KVM/arm64 hosts that accept untrusted guests, particularly multi-tenant arm64 public clouds.
+ITScape exploits a race condition in the **vGIC-ITS (Interrupt Translation Service)** emulation of KVM/arm64. It triggers the bug with guest-side actions alone to escape to the host, and it can threaten the guest-host isolation of KVM/arm64 hosts that accept untrusted guests, particularly multi-tenant arm64 public clouds.
 
 Unlike the commonly published QEMU escapes, the bug lives in in-kernel KVM rather than QEMU user-space, so it works independently of QEMU's emulation, and it can run commands on the host with host kernel privilege rather than the privilege of a user process (such as QEMU).
 
