@@ -6,7 +6,7 @@
 
 ![demo](demo.gif)
 
-For the PoC code and usage, see [here](README.md).
+For the PoC code and usage, see [here](../README.md).
 
 ITScape (CVE-2026-46316) is a guest-to-host escape vulnerability that exploits a use-after-free in the [vGIC-ITS (Interrupt Translation Service)](https://developer.arm.com/documentation/101206/0003/Components-and-configuration/Interrupt-Translation-Service) emulation of KVM/arm64, letting a guest take over the host kernel that runs it. Guest-side actions alone trigger the bug and reach root-privileged code execution in the host kernel. To the best of public knowledge, this is the first guest-to-host escape exploit to directly target in-kernel KVM/arm64.
 
