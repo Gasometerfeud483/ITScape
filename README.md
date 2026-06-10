@@ -1,7 +1,7 @@
-# ITScape: Guest-to-Host Escape in KVM/arm64 (CVE-2026-46316)
+# ITScape: Guest-to-Host Escape in KVM/arm64
 
 <p align="center">
-  <img src="assets/tux.png" width="400" alt="tux">
+  <img src="assets/tux.png" width="500" alt="tux">
 </p>
 
 # Abstract

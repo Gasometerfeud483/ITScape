@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/tux.png" width="400" alt="tux">
+  <img src="tux.png" width="400" alt="tux">
 </p>
 
 # Intro
 
-![demo](assets/demo.gif)
+![demo](demo.gif)
 
 For the PoC code and usage, see [here](README.md).
 
